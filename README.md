@@ -32,6 +32,8 @@ Frontend Setup
 PORT = 3000
 To run frontend: npm start
 
+Deployed Server: http://13.60.43.21:3000/
+
 Running Summary
 Backend | node server.js | http://localhost:3001
 Frontend | npm start | http://localhost:3000
