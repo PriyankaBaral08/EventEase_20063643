@@ -1197,3 +1197,6 @@
 2025-08-05 10:56:30 [info]: ::1 - - [05/Aug/2025:09:56:30 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 2025-08-05 10:56:31 [info]: ::1 - - [05/Aug/2025:09:56:31 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
 2025-08-05 10:56:39 [info]: ::1 - - [05/Aug/2025:09:56:39 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+2025-08-05 23:39:30 [info]: Server running on port 3001
+2025-08-05 23:39:30 [info]: Connected to MongoDB
+2025-08-05 23:40:16 [info]: ::ffff:127.0.0.1 - - [05/Aug/2025:22:40:16 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"

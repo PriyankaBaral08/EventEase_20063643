@@ -1,9 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
-const helmet = require('helmet');
-const morgan = require('morgan');
-const rateLimit = require('express-rate-limit');
+const cors = require('cors'); 
+const helmet = require('helmet'); // Adds HTTP headers for security.
+const morgan = require('morgan'); //Logs HTTP requests.
+const rateLimit = require('express-rate-limit'); // Limits repeated requests to public APIs.
 require('dotenv').config();
 
 const authRoutes = require('./Routes/auth');
@@ -11,10 +11,10 @@ const eventRoutes = require('./Routes/event');
 const expenseRoutes = require('./Routes/expenses');
 const taskRoutes = require('./Routes/tasks');
 const errorHandler = require('./Middleware/errorHandler');
-const logger = require('./utils/logger');
+const logger = require('./utils/logger'); 
 
 
-const app = express();
+const app = express(); // Initialize Express app
 const PORT = process.env.PORT || 3001;
 app.use('/uploads', express.static('uploads'));
 app.use('/api/upload', require('./routes/upload'));
@@ -24,7 +24,7 @@ app.use(helmet());
 app.use(
   morgan('combined', {
     stream: {
-      write: (message) => logger.info(message.trim())
+      write: (message) => logger.info(message.trim()) 
     }
   })
 );
