@@ -7,7 +7,7 @@ const logger = require('../utils/logger');
 
 const router = express.Router();
 
-// 🔹 Join an Event (by eventId)
+// Join an Event (by eventId)
 router.post('/:id/join', auth, async (req, res) => {
   try {
     const event = await Event.findById(req.params.id);
@@ -32,7 +32,7 @@ router.post('/:id/join', auth, async (req, res) => {
   }
 });
 
-// 🔹 Get all events where user is organizer or participant
+// Get all events where user is organizer or participant
 router.get('/', auth, async (req, res) => {
   try {
     const events = await Event.find({
@@ -52,7 +52,7 @@ router.get('/', auth, async (req, res) => {
   }
 });
 
-// 🔹 Get single event by ID
+// Get single event by ID
 router.get('/:id', auth, async (req, res) => {
   try {
     const event = await Event.findById(req.params.id)
@@ -78,7 +78,7 @@ router.get('/:id', auth, async (req, res) => {
   }
 });
 
-// 🔹 Create a new event
+// Create a new event
 router.post(
   '/',
   [
@@ -186,7 +186,7 @@ router.post('/:id/approve/:userId', auth, async (req, res) => {
 });
 
 
-// 🔹 Add participant to event (organizer only)
+//  Add participant to event (organizer only)
 router.post('/:id/participants', auth, async (req, res) => {
   try {
     const { userEmail, role = 'participant' } = req.body;
@@ -221,7 +221,7 @@ router.post('/:id/participants', auth, async (req, res) => {
   }
 });
 
-// 🔹 Remove participant from event (organizer only)
+//  Remove participant from event (organizer only)
 router.delete('/:id/participants/:userId', auth, async (req, res) => {
   try {
     const event = await Event.findById(req.params.id);
@@ -254,7 +254,7 @@ router.delete('/:id/participants/:userId', auth, async (req, res) => {
   }
 });
 
-// 🔹 Update event (organizer only)
+//  Update event (organizer only)
 router.put(
   '/:id',
   [

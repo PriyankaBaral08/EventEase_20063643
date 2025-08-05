@@ -161,7 +161,7 @@ router.get('/summary/:eventId', auth, async (req, res) => {
   }
 });
 
-// ✅ NEW: Get total expenses across all events for dashboard
+// NEW: Get total expenses across all events for dashboard
 router.get('/total', auth, async (req, res) => {
   try {
     const events = await Event.find({

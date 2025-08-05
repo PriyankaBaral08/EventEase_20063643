@@ -1188,3 +1188,12 @@
 2025-07-22 15:32:14 [info]: ::1 - - [22/Jul/2025:10:02:14 +0000] "GET /api/expenses/total HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
 2025-07-22 15:32:14 [info]: ::1 - - [22/Jul/2025:10:02:14 +0000] "GET /api/events HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
 2025-07-22 15:32:14 [info]: ::1 - - [22/Jul/2025:10:02:14 +0000] "GET /api/expenses/total HTTP/1.1" 304 - "http://localhost:3000/dashboard" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+2025-08-04 23:27:37 [info]: Server running on port 3001
+2025-08-04 23:27:37 [info]: Connected to MongoDB
+2025-08-04 23:40:50 [info]: Server running on port 3001
+2025-08-04 23:40:50 [info]: Connected to MongoDB
+2025-08-05 10:56:22 [info]: Server running on port 3001
+2025-08-05 10:56:22 [info]: Connected to MongoDB
+2025-08-05 10:56:30 [info]: ::1 - - [05/Aug/2025:09:56:30 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+2025-08-05 10:56:31 [info]: ::1 - - [05/Aug/2025:09:56:31 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+2025-08-05 10:56:39 [info]: ::1 - - [05/Aug/2025:09:56:39 +0000] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 187 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
